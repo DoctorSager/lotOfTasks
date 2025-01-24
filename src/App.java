@@ -3,6 +3,7 @@ public class App {
         
         //Task1.maxMidMinNumber();
         //Task2.sortArray();
-        Task3.numbers();
+        //Task3.numbers();
+        Task4.deleteFromArray();
     }
 }

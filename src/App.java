@@ -4,6 +4,6 @@ public class App {
         //Task1.maxMidMinNumber();
         //Task2.sortArray();
         //Task3.numbers();
-        Task4.deleteFromArray();
+        //Task4.deleteFromArray();
     }
 }

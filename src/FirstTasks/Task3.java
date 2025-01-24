@@ -1,3 +1,5 @@
+package FirstTasks;
+
 // Напишите программу, которая выводит на консоль простые числа
 // в промежутке от [2, 100].
 // Используйте для решения этой задачи 
@@ -8,7 +10,7 @@ public class Task3 {
     
 
     static void numbers(){
-    int max = 100;
+    int max = 50;
 
 
     fillSimpleNumbers( max);
@@ -27,7 +29,7 @@ public class Task3 {
             }
         }
         if (isPrime) {
-            System.out.println(i);
+            System.out.println(i + ",");
         }
         
        }

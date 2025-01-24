@@ -1,3 +1,5 @@
+package FirstTasks;
+
 import java.util.Arrays;
 
 public class Task4 {

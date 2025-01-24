@@ -1,3 +1,9 @@
+package FirstTasks;
+
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.Random;
+
 // Реализуйте алгоритм сортировки 
 //пузырьком для сортировки массива
 
@@ -6,21 +12,21 @@ public class Task2 {
 
     static void sortArray(){
 
-        int number = 100;
-        double[] array = new double[number];
+        int number = 10;
+        int[] array = new int[number];
+        Random rnd = new Random();
 
         for (int i = 0; i < array.length; i++) {
-            array[i] = Math.random()*100;
+            array[i] = rnd.nextInt(number);
             //System.out.println(array[i]);
         }
         bubblesort(array);
-        for (int i = 0; i < array.length; i++) {
-            System.out.println(array[i]);
-        }
+        System.out.println(Arrays.toString(array));
+        
 
     }
 
-    static void bubblesort(double[] array){
+    static void bubblesort(int[] array){
 
         int n = array.length;
         for (int j = 1; j < n; j++) {

@@ -9,7 +9,7 @@ package FirstTasks;
 public class Task3 {
     
 
-    static void numbers(){
+    public static void numbers(){
     int max = 50;
 
 

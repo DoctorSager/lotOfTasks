@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Task4 {
     
-    static void deleteFromArray (){
+    public static void deleteFromArray (){
 
         int[] fullArray = {2,2,4,4,4,2,2,2};
 

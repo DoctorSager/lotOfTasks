@@ -5,7 +5,7 @@ package FirstTasks;
 
 public class Task1 {
     
-    static void maxMidMinNumber(){
+    public static void maxMidMinNumber(){
 
         int n = 100;
         double[] array = new double[n];

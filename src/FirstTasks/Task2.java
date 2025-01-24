@@ -1,6 +1,5 @@
 package FirstTasks;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Random;
 
@@ -10,7 +9,7 @@ import java.util.Random;
 public class Task2 {
     
 
-    static void sortArray(){
+    public static void sortArray(){
 
         int number = 10;
         int[] array = new int[number];

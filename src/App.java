@@ -6,6 +6,7 @@ import FirstTasks.Task2;
 import FirstTasks.Task3;
 import FirstTasks.Task4;
 import SecondTasks.vector;
+import SecondTasks.weight;
 
 @SuppressWarnings("unused")
 public class App {
@@ -32,12 +33,6 @@ public class App {
 //#endregion
 
 //#region Task 2.1
-
-
-
-
-
-
 
 //#endregion
     }

@@ -1,3 +1,5 @@
+package Tasks3;
+
 public class solving {
     
     public static double func(double x){

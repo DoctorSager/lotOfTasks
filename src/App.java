@@ -1,5 +1,6 @@
 import java.lang.reflect.Array;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Random;
 
 import FirstTasks.Task1;
@@ -9,6 +10,8 @@ import FirstTasks.Task4;
 import SecondTasks.vector;
 import SecondTasks.weight;
 import Tasks3.doubleSearch;
+import Tasks3.solving;
+import Tasks3.Task3a3;
 
 
 @SuppressWarnings("unused")
@@ -21,7 +24,6 @@ public class App {
         // Task3.numbers();
         // Task4.deleteFromArray();
 //#endregion
-
 //#region Task 2.0       
     //     vector[] vectors = vector.fill(10);
 
@@ -34,7 +36,6 @@ public class App {
     //    System.out.println(vectors[0].sum(vectors[1]));
     //    System.out.println(vectors[0].dif(vectors[1]));
 //#endregion
-
 //#region Task 3.0
 
     // double[] array = doubleSearch.generateRandomArray(100000000);
@@ -48,18 +49,21 @@ public class App {
     // doubleSearch.binarySearshRecursively(array, 0.5);
     // System.out.println(System.currentTimeMillis() - time);
 //#endregion
-
 //#region Task 3.1
 
-       System.out.println(solving.solve(5.2334, 5.2424));
+       //System.out.println(solving.solve(5.2334, 5.2424));
+
+//#endregion
+//#region Task 3.2
+//#region Task 3.3
+//System.out.println(Task3a3.collinearity(1, 2, 1, -2));
+//#endregion
+
 
 
 
 }
-
-   
 }
-
 
 
 

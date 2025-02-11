@@ -12,6 +12,7 @@ import SecondTasks.weight;
 import Tasks3.doubleSearch;
 import Tasks3.solving;
 import Tasks3.Task3a3;
+import Tasks3.qadrant;
 
 
 @SuppressWarnings("unused")
@@ -58,11 +59,18 @@ public class App {
 //#region Task 3.3
 //System.out.println(Task3a3.collinearity(1, 2, 1, -2));
 //#endregion
+//#region Task 3.4
+
+    //System.out.println(qadrant.quadrant(1, -9));
+//#endregion
 
 
 
 
 }
+
+
+
 }
 
 
